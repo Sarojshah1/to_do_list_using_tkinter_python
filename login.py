@@ -135,24 +135,24 @@ def forget():
         settings=Label(top,text='Forget Password?',fg='#363740',bg='#fafafa',font=('inter',15,'bold'))
         settings.place(x=360,y=40)
         # username 
-        username=Entry(top,fg='black',bg='#FAFAFA',border=1,font=('microsoft yaHei UI light',15),width=40,cursor='hand2')
-        username.place(x=240,y=120,height=40)
+        username=Entry(top,fg='black',bg='green',border=1,font=('Arial',10),width=40,cursor='hand2')
+        username.place(x=340,y=120,height=30)
         username.insert(5,'Email')
 
 
 
-        new_password=Entry(top,width=40,fg='black',bg='#FAFAFA',border=1,font=('microsoft yaHei UI light',15),cursor='hand2',show='*')
-        new_password.place(x=240,y=200,height=40)
+        new_password=Entry(top,width=40,fg='black',bg='blue',border=1,font=('microsoft yaHei UI light',10),cursor='hand2',show='*')
+        new_password.place(x=340,y=200,height=30)
         new_password.insert(5,'New Password')
 
 
         
-        confirm_password=Entry(top,width=40,fg='black',bg='#FAFAFA',border=1,font=('microsoft yaHei UI light',15),cursor='hand2',show='*')
-        confirm_password.place(x=240,y=280,height=40)
+        confirm_password=Entry(top,width=40,fg='black',bg='blue',border=1,font=('microsoft yaHei UI light',10),cursor='hand2',show='*')
+        confirm_password.place(x=340,y=280,height=30)
         confirm_password.insert(5,'Confirm Password')
 
         save=Button(top,text='SAVE',width=10,bg='green',fg='white',font=("microsoft yaHei UI light",12),cursor='hand2',command=save)
-        save.place(x=240,y=360)
+        save.place(x=340,y=360)
 
    
 log=Frame(root,bg='#D9D9D9',border=0,width=350)
